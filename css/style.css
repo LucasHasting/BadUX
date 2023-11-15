@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url("https://fonts.googleapis.com/css?family=Lato");
 
-body{
-  font-family: 'Lato', sans-serif;
+body {
+  font-family: "Lato", sans-serif;
   margin: auto;
   background-color: white;
 }
 
 #entireHeader {
-  width: 100%; 
+  width: 100%;
   background-image: url("../img/headerBackground.png");
   bottom: 15px;
   position: relative;
@@ -61,7 +61,8 @@ body{
   margin: 20% auto -5% auto;
 }
 
-.navbar-nav, .navbar {
+.navbar-nav,
+.navbar {
   background-color: #5c42f4;
 }
 
@@ -81,7 +82,7 @@ body{
   font-size: 16px;
 }
 
-.card:hover{
+.card:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
 }
 
@@ -107,7 +108,8 @@ a {
   text-decoration: none;
 }
 
-#thumbUp, #thumbDown {
+#thumbUp,
+#thumbDown {
   height: 140px;
   margin-bottom: 5px;
 }
@@ -122,7 +124,7 @@ a:hover {
   color: black;
 }
 
-footer{
+footer {
   margin-top: 50px;
   width: 80%;
   margin: auto;
@@ -144,7 +146,6 @@ footer{
   margin-left: auto;
   margin-right: auto;
   display: block;
-
 }
 
 .overallScreen {
@@ -160,20 +161,19 @@ footer{
   border: 2px solid #dbdbdb;
   height: 55%;
   width: 60%;
-  margin:0 auto;
+  margin: 0 auto;
   padding: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
-
 }
 
-#console-box{
-  position:relative;
-  height:300px;
-  width:40%;
-  background-color:#000;
+#console-box {
+  position: relative;
+  height: 300px;
+  width: 40%;
+  background-color: #000;
   color: #55ff55;
   font-family: monospace;
-  padding:6px; 
+  padding: 6px;
   margin: 2% auto;
   overflow: hidden;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
@@ -181,14 +181,15 @@ footer{
   font-size: 14px;
 }
 
-#gradeSelection, #moreDetail {
+#gradeSelection,
+#moreDetail {
   display: flex;
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
 }
 
-.grade{
+.grade {
   width: 10%;
 }
 
@@ -196,22 +197,23 @@ footer{
   width: 20%;
 }
 
-.notAvailable, .initialAvailable
-{
+.notAvailable,
+.initialAvailable {
   opacity: 0.65;
   pointer-events: none;
 }
 
-.nav-item, .nav-link {
+.nav-item,
+.nav-link {
   margin-left: 40px;
 }
 
-#game{
+#game {
   background-image: url(../img/background.png);
   background-size: cover;
 }
 
-.box{
+.box {
   height: 300px;
   width: 300px;
   object-fit: contain;
@@ -221,10 +223,10 @@ footer{
   border: solid 10px green;
 }
 
-#image{
+#image {
   background-color: transparent;
 }
 
-#reset{
+#reset {
   text-align: center;
 }

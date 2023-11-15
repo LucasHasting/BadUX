@@ -1,5 +1,5 @@
 $(document).ready(function () {
-$(".box").on("click", function () {
+  $(".box").on("click", function () {
     console.log($(this));
     //change border color to green
     $(this).toggleClass('clicked');
@@ -14,13 +14,13 @@ $(".box").on("click", function () {
     });
 
     //if all items are selected, fade
-    if(box_count === 2){
+    if (box_count === 2) {
       $(".box").fadeOut(1500)
     }
-});
+  });
 });
 
-function reset(){
+function reset() {
   $(".box").each(function () {
     //if something is selected, unselect it
     if ($(this).css("border-color") === "rgb(0, 128, 0)") {
